@@ -1,0 +1,4 @@
+Program działa poprawnie i zgodnie z Pana wytycznymi,
+2 pliki zaszyfrowane wyglądają tak jak powinny,
+jednak zamiast obraz dzielić na małe bloki np 8x8,
+szyfruje obraz piksel po pikselu.

@@ -1,0 +1,39 @@
+.table(@width, @color, @border) {
+  table {
+    border: solid @color @border;
+    width: @width;
+
+    tfoot {
+      background: darken(@color, 10%);
+      color: lighten(@color, 10%);
+    }
+
+    thead {
+      background: lighten(@color, 10%);
+      color: darken(@color, 30%);
+    }
+
+    tbody {
+      td {
+        background: darken(@color, 30%);
+        color: lighten(@color, 20%);
+      }
+    }
+  }
+}
+
+#t1 {
+  .table(300px, #ee82ee, 1px);
+}
+
+#t2 {
+  .table(400px, #6495ed, 1px);
+}
+
+#t3 {
+  .table(500px, #ffa500, 1px);
+}
+
+#t4 {
+  .table(600px, #7fff00, 1px);
+}

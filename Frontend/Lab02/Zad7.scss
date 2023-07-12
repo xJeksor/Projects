@@ -1,0 +1,16 @@
+$colorsForWeek : (
+        monday: #fffefc,
+        tuesday: #fbfcf7,
+        wednesday: #fefaf0,
+        thursday: #fef7e5,
+        friday: #fffbda,
+        saturday: #fffbda,
+        sunday: #fef9e3
+
+);
+
+@each $day, $color in $colorsForWeek {
+  .#{$day} {
+    color: $color;
+  }
+}

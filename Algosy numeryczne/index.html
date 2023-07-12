@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styl.css">
+    <title>Zadanie</title>
+    <!-- <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-script> print('Now you can!') </py-script> -->
+</head>
+<body class="parallax">
+    <style>
+        .gfg {
+        background-color: lightskyblue;
+        border: 2px solid black;
+        color: black;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 10px 30px;
+        cursor: pointer;
+        }
+        .parallax {
+        /* The image used */
+        background-image: url("parallax.jpeg");
+
+        /* Set a specific height */
+        min-height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    </style>
+    <script>
+        function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        }
+    </script>
+
+    <!-- <div id="background"> -->
+        
+    <header>
+        <ul id="menu">
+            <li><a href="#lista1">Etap Pierwszy</a></li>
+            <li><a href="#lista2">Etap Drugi</a></li>
+            <li><a href="#lista3">Etap Trzeci</a></li>
+            <li><a href="#table">Wyniki zawodów</a></li>
+            <li><a href="https://sigma.ug.edu.pl/~furban/zad2.html">Strona z konkursem</a></li>
+            <li><a href="#formularz">Formularz</a></li>
+            <li><a href="https://inf.ug.edu.pl"><img alt="Ups chyba się nie wczytało :(" src="logo.jpg" width="25" height="25"></a></li>
+            <li><img src="moon.png"  onclick="myFunction()" width="55" height="55"></li>
+          </ul> 
+    </header>
+
+    <div>
+        <h1><b></b>Zawody szkolne</h1>
+    </div>
+    <div id="main">
+        <p>Konkurs podzielony jest na 3 etapy, każdy składający się z 3 zadań. Limit osób: 60. </p>
+    </div>
+    <div>
+        <h3>Etap pierwszy - eliminacje:</h3>
+        <ol type="I" id="lista1">
+            <li>Pierwszym zadaniem w tym etapie będzie dobranie się w 6 osobowe zespoły, po czym w wybranych zespołach odbędą sie wyścigi rzędów, konkurencja sprawdzająca szeroki zakres aktywności fizycznych.</li>
+            <li>Drugim zadaniem będzie bieg przez płotki.</li>
+            <li>Trzecim zadaniem będzie sprint.</li>     
+        </ol>
+    </div>
+    <div>
+        <h3>Etap drugi - koszykówka</h3>
+        <ol type="I" id="lista2">
+            <li>Gra w "24"</li>
+            <li>Mecz drużynowy</li>
+            <li>1 vs 1</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Etap trzeci - piłka nożna</h3>
+        <ol type="I" id="lista3">
+            <li>Gra w "Warszawe"</li>
+            <li>Mecz Drużynowy</li>
+            <li>1 vs 1</li>
+        </ol>
+    </div>
+    <div>
+        <table id="table" style="margin-left: auto; margin-right: auto;"><caption><strong>Wyniki zawodów</strong></caption>
+            <thead>
+            <tr>
+                <th>Imię i nazwisko </th>
+                <th>Miejsce</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Zawodnik nr.1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Zawodnik nr.2</td>
+                <td>2</td>
+            </tr>
+                <td>Zawodnik nr.3</td>
+                <td>3</td>
+            <tr>
+                <td>Zawodnik nr.4</td>
+                <td>4</td>
+            </tr>
+            </tbody>
+            </tbody>
+            </table>
+        <img src="polska_gurom.jpg">
+    </div>
+    <div>
+        <form id="formularz" action="">
+            <input type="text" placeholder="Imię" required>
+            <input type="text" placeholder="Nazwisko" required>
+            <input type="text" placeholder="E-mail" required>
+            <button type="submit">Submit</button>
+          </form><br>
+    </div>
+
+<!-- </div> -->
+    <footer>
+        Powodzenia :)
+    </footer>
+
+
+</body>
+</html>

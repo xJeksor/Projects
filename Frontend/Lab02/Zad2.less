@@ -1,0 +1,23 @@
+@color_var: #2790d6;
+
+.sec1 {
+  p {
+    color: @color_var;
+  }
+
+  h1 {
+    font-family: "Halvetica Nue", sans-serif;
+  }
+}
+
+.sec2 {
+  > div {
+    border: solid @color_var 1px;
+
+    li {
+      &:hover {
+        color: @color_var;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.message {
+  color: #911111;
+  font-family: "Roboto", sans-serif;
+}
+.message:hover {
+  background: compliment(#911111);
+}
+.message .message-item {
+  padding: 10px;
+  margin: 2px;
+}
+.message .message-item font {
+  size: 0.9rem;
+  weight: bold;
+  family: sans-serif;
+}
+
+/*# sourceMappingURL=Zad5.css.map */

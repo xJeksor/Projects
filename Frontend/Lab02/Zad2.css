@@ -1,0 +1,13 @@
+.sec1 p {
+  color: #2790d6;
+}
+.sec1 h1 {
+  font-family: "Halvetica Nue", sans-serif;
+}
+.sec2 > div {
+  border: solid #2790d6 1px;
+}
+.sec2 > div li:hover {
+  color: #2790d6;
+}
+/*# sourceMappingURL=Zad2.css.map */

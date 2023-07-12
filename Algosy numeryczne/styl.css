@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 25px;
+}
+
+
+div {
+    /* background-color: white; */
+    border-color: black;
+    border-style: solid;
+    padding: 25px;
+}
+
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+ul#menu li {
+    float: left;
+    border-right: 3px solid #bbb;
+}
+  
+ul#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+ul#menu li a:hover {
+    background-color: #111;
+}
+
+/* #background {
+    background-color: lightskyblue;
+} */
+
+table, th, td {
+    border:1px solid black;
+  }
+
+tr:nth-child(even) {
+    background-color: red;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }

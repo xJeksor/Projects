@@ -1,0 +1,9 @@
+@cores: red green blue yellow violet;
+
+.loop(@i) when (@i < 6) {
+  div:nth-of-type(@{i}) {
+    background-color: extract(@cores, @i);
+  }
+  .loop(@i + 1);
+}
+.loop(1);
